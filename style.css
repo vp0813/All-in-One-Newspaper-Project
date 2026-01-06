@@ -1,0 +1,33 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-image: url(cover.png);
+    background-size: cover;
+}
+
+#h1{
+    display: flex;
+    justify-content: center;
+    padding-top: 230px;
+    font-size: 128px;
+    font-weight: 600;
+    font-family: fantasy;
+}
+
+#button{
+    display: flex;
+    justify-content: center;
+}
+
+#explore{
+    padding: 10px;
+    margin-top: 10px;
+    font-size: 18px;
+    background-color: grey;
+    color: whitesmoke;
+    border-radius: 10px;
+    border-color: grey; 
+}
