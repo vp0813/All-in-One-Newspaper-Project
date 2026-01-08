@@ -5,8 +5,35 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Main Page | All in One Newspaper</title>
     <link rel="stylesheet" href="style_main.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
 </head>
 <body>
-    Hello
+    <div id="navbar">
+        <div id="name">NewsNest</div>
+
+        <div>
+            <input type="text" id="search" placeholder="Enter your Intrest"/>
+        </div>
+
+        <div id="box1">
+            <i id="icon" class="fa-solid fa-magnifying-glass"></i>
+        </div>
+
+        <div id="language">
+            <select name="language" id="language">
+                <option value="english">English</option>
+                <option value="hindi">Hindi</option>
+            </select>
+        </div>
+        
+        <button id="saveic">
+            <i id="save" class="fa-solid fa-map-pin"></i>
+        </button>
+
+        <div id="mode">Mode</div>
+    </div>
+
+    <script src="script.js"></script>
 </body>
 </html>

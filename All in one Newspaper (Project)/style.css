@@ -30,4 +30,5 @@ body{
     color: whitesmoke;
     border-radius: 10px;
     border-color: grey; 
+    cursor: pointer;
 }

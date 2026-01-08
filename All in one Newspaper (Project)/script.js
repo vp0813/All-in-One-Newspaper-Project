@@ -4,3 +4,10 @@ if(explore){
         window.location.href = "main.html";
     }
 }
+
+let webname = document.getElementById("name");
+if(webname){
+    webname.onclick = function(){
+        window.location.href = "main.html";
+    }
+}

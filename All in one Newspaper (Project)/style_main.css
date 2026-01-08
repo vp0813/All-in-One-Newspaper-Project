@@ -1,0 +1,94 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: rgb(255, 251, 251);
+}
+
+#navbar{
+    height: 60px;
+    background-color: #222831;
+    display: flex;
+    align-items: center;
+}
+
+#name{
+    font-family: fantasy;
+    font-size: 28px;
+    color: #DFD0B8;
+    padding-top: 7px;
+    padding-bottom: 10px;
+    padding-left: 15px;
+    padding-right: 50px;
+    cursor: pointer;
+}
+
+#search{
+    height: 25px;
+    width: 180px;
+    padding: 3px;
+    border: 3px solid #222831;
+    background-color: rgb(236, 233, 233);
+    border-right: none;
+}
+
+#search:hover{
+    border-color: rgb(137, 115, 87);
+}
+
+#box1{
+    height: 31px;
+    width: 32px;
+    background-color: rgb(231, 191, 72);
+    margin-right: 830px;
+    border: 3px solid #222831;
+    border-left: none;
+    border-left: none;
+}
+
+#box1:hover{
+    border-color: rgb(137, 115, 87);
+}
+
+#icon{
+    height: 8px;
+    width: 8px;
+    padding: 8px;
+    cursor: pointer;
+}
+
+#language{
+    padding: 7px;
+    width: 100px;
+    margin-right: 30px;
+}
+
+#saveic{
+    height: 34px;
+    width: 34px;
+    border-radius: 10px;
+    margin-right: 30px;
+    background-color: rgb(231, 191, 72);
+}
+
+#save{
+    height: 8px;
+    width: 8px;
+    padding: 8px;
+    padding-bottom: 10px;
+    cursor: pointer;
+    color: black;
+}
+
+
+#mode{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 28px;
+    background-color: white;
+    width: 80px;
+    border-radius: 10px;
+}
