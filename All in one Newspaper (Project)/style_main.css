@@ -135,24 +135,12 @@ body{
 }
 
 #main2{
-    height: 1080px;
+    height: 1410px;
 }
+
+/* Boxes1 */
 
 #boxes1{
-    margin: 60px;
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-}
-
-#boxes2{
-    margin: 60px;
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-}
-
-#boxes3{
     margin: 60px;
     display: flex;
     justify-content: space-around;
@@ -165,6 +153,8 @@ body{
     background-image: url(images/toi.png);
     background-size: cover;
     box-shadow: 0px 0px 30px 8px lightgray;
+    cursor: pointer;
+    border-radius: 20px;
 }
 
 #boxes1-two{
@@ -173,14 +163,207 @@ body{
     background-image: url(images/thehindu.jpeg);
     background-size: contain;
     box-shadow: 0px 0px 30px 8px lightgray;
+    cursor: pointer;
+    border-radius: 20px;
 }
 
 #boxes1-three{
     height: 300px;
     width: 300px;
+    background-image: url(images/hindustan_times.jpg);
+    background-size: contain;
     box-shadow: 0px 0px 30px 8px lightgray;
+    cursor: pointer;
+    border-radius: 20px;
 }
 
+#boxes1-name{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 165px;
+}
+
+#b1-n1{
+    height: 50px;
+    width: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 25px;
+    background-color: yellowgreen;
+}
+
+#b1-n2{
+    height: 50px;
+    width: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 25px;
+    background-color: yellowgreen;
+}
+
+#b1-n3{
+    height: 50px;
+    width: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 25px;
+    background-color: yellowgreen;
+}
+
+/* Boxes2 */
+
+#boxes2{
+    margin: 60px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#boxes2-one{
+    height: 300px;
+    width: 300px;
+    background-image: url(images/jagran.jpg);
+    background-size: cover;
+    box-shadow: 0px 0px 30px 8px lightgray;
+    cursor: pointer;
+    border-radius: 20px;
+}
+
+#boxes2-two{
+    height: 300px;
+    width: 300px;
+    background-image: url(images/bhaskar.png);
+    background-size: contain;
+    box-shadow: 0px 0px 30px 8px lightgray;
+    cursor: pointer;
+    border-radius: 20px;
+}
+
+#boxes2-three{
+    height: 300px;
+    width: 300px;
+    background-image: url(images/hindustan.png);
+    background-size: contain;
+    box-shadow: 0px 0px 30px 8px lightgray;
+    cursor: pointer;
+    border-radius: 20px;
+}
+
+#boxes2-name{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 165px;
+}
+
+#b2-n1{
+    height: 50px;
+    width: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 25px;
+    background-color: yellowgreen;
+}
+
+#b2-n2{
+    height: 50px;
+    width: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 25px;
+    background-color: yellowgreen;
+}
+
+#b2-n3{
+    height: 50px;
+    width: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 25px;
+    background-color: yellowgreen;
+}
+
+/* Boxes3 */
+#boxes3{
+    margin: 60px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#boxes3-one{
+    height: 300px;
+    width: 300px;
+    background-image: url(images/tnyt.jpg);
+    background-size: cover;
+    box-shadow: 0px 0px 30px 8px lightgray;
+    cursor: pointer;
+    border-radius: 20px;
+}
+
+#boxes3-two{
+    height: 300px;
+    width: 300px;
+    background-image: url(images/wsj.png);
+    background-size: contain;
+    box-shadow: 0px 0px 30px 8px lightgray;
+    cursor: pointer;
+    border-radius: 20px;
+}
+
+#boxes3-three{
+    height: 300px;
+    width: 300px;
+    background-image: url(images/wp.png);
+    background-size: contain;
+    box-shadow: 0px 0px 30px 8px lightgray;
+    cursor: pointer;
+    border-radius: 20px;
+}
+
+#boxes3-name{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 165px;
+}
+
+#b3-n1{
+    height: 50px;
+    width: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 25px;
+    background-color: yellowgreen;
+}
+
+#b3-n2{
+    height: 50px;
+    width: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 25px;
+    background-color: yellowgreen;
+}
+
+#b3-n3{
+    height: 50px;
+    width: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 25px;
+    background-color: yellowgreen;
+}
 
 
 
